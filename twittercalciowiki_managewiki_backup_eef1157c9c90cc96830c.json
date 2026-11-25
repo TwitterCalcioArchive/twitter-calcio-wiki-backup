@@ -1,0 +1,507 @@
+{
+    "extensions": [
+        "categorytree",
+        "cite",
+        "codeeditor",
+        "codemirror",
+        "gadgets",
+        "globaluserpage",
+        "inputbox",
+        "multimediaviewer",
+        "pageimages",
+        "portableinfobox",
+        "purge",
+        "syntaxhighlight_geshi",
+        "templatedata",
+        "templatesandbox",
+        "templatestyles",
+        "textextracts",
+        "thanks",
+        "urlshortener",
+        "visualeditor",
+        "wikiseo"
+    ],
+    "settings": null,
+    "namespaces": {
+        "<Main>": {
+            "id": "0",
+            "core": true,
+            "searchable": true,
+            "subpages": true,
+            "content": true,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Talk": {
+            "id": "1",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "User": {
+            "id": "2",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "User_talk": {
+            "id": "3",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Project": {
+            "id": "4",
+            "core": true,
+            "searchable": true,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Project_talk": {
+            "id": "5",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "File": {
+            "id": "6",
+            "core": true,
+            "searchable": false,
+            "subpages": false,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [
+                "Image"
+            ],
+            "additional": []
+        },
+        "File_talk": {
+            "id": "7",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [
+                "Image_talk"
+            ],
+            "additional": []
+        },
+        "MediaWiki": {
+            "id": "8",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": "editinterface",
+            "aliases": [],
+            "additional": []
+        },
+        "MediaWiki_talk": {
+            "id": "9",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Template": {
+            "id": "10",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Template_talk": {
+            "id": "11",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Help": {
+            "id": "12",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Help_talk": {
+            "id": "13",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Category": {
+            "id": "14",
+            "core": true,
+            "searchable": false,
+            "subpages": false,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Category_talk": {
+            "id": "15",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Module": {
+            "id": "828",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        },
+        "Module_talk": {
+            "id": "829",
+            "core": true,
+            "searchable": false,
+            "subpages": true,
+            "content": false,
+            "contentmodel": "wikitext",
+            "protection": false,
+            "aliases": [],
+            "additional": []
+        }
+    },
+    "permissions": {
+        "*": {
+            "permissions": [
+                "abusefilter-log",
+                "abusefilter-log-detail",
+                "abusefilter-view",
+                "autocreateaccount",
+                "centralauth-merge",
+                "createaccount",
+                "editmyoptions",
+                "editmyprivateinfo",
+                "editmywatchlist",
+                "oathauth-enable",
+                "viewmyprivateinfo",
+                "viewmywatchlist",
+                "autocreateaccount",
+                "read",
+                "oathauth-enable",
+                "viewmyprivateinfo",
+                "echo-read-notifications",
+                "editmyoptions",
+                "editmyprivateinfo",
+                "editmywatchlist"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "autoconfirmed": {
+            "permissions": [
+                "autoconfirmed",
+                "createaccount",
+                "editsemiprotected",
+                "mwoauthproposeconsumer",
+                "mwoauthupdateownconsumer",
+                "skipcaptcha"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": [
+                "&",
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    345600
+                ]
+            ]
+        },
+        "autopatrolled": {
+            "permissions": [
+                "autopatrol",
+                "patrol",
+                "patrolmarks",
+                "skipcaptcha"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "bot": {
+            "permissions": [
+                "apihighlimits",
+                "autoconfirmed",
+                "autopatrol",
+                "bot",
+                "editsemiprotected",
+                "nominornewtalk",
+                "skipcaptcha",
+                "suppressredirect"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "bureaucrat": {
+            "permissions": [
+                "interwiki",
+                "managewiki-core",
+                "managewiki-extensions",
+                "managewiki-namespaces",
+                "managewiki-permissions",
+                "managewiki-settings",
+                "noratelimit",
+                "override-antispoof"
+            ],
+            "addgroups": [
+                "bot",
+                "bureaucrat",
+                "interface-admin",
+                "sysop"
+            ],
+            "removegroups": [
+                "bot",
+                "interface-admin",
+                "sysop"
+            ],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "confirmed": {
+            "permissions": [
+                "autoconfirmed",
+                "editsemiprotected",
+                "skipcaptcha"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "editori": {
+            "permissions": [
+                "createpage",
+                "createtalk",
+                "edit",
+                "minoredit",
+                "move",
+                "reupload",
+                "upload"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "interface-admin": {
+            "permissions": [
+                "editinterface",
+                "editsitecss",
+                "editsitejs",
+                "editsitejson",
+                "editusercss",
+                "edituserjs",
+                "edituserjson"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "rollbacker": {
+            "permissions": [
+                "rollback"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "sysop": {
+            "permissions": [
+                "abusefilter-log-detail",
+                "abusefilter-modify",
+                "abusefilter-modify-restricted",
+                "abusefilter-revert",
+                "apihighlimits",
+                "autoconfirmed",
+                "autopatrol",
+                "block",
+                "browsearchive",
+                "createaccount",
+                "delete",
+                "delete-dump",
+                "deletechangetags",
+                "deletedhistory",
+                "deletedtext",
+                "deletelogentry",
+                "deleterevision",
+                "editinterface",
+                "editprotected",
+                "editsemiprotected",
+                "editsitejson",
+                "edituserjson",
+                "generate-dump",
+                "globalblock-whitelist",
+                "import",
+                "importupload",
+                "ipblock-exempt",
+                "ipinfo",
+                "ipinfo-view-basic",
+                "managechangetags",
+                "markbotedits",
+                "massmessage",
+                "mergehistory",
+                "move",
+                "move-categorypages",
+                "move-rootuserpages",
+                "move-subpages",
+                "movefile",
+                "noratelimit",
+                "nuke",
+                "override-antispoof",
+                "patrol",
+                "patrolmarks",
+                "protect",
+                "reupload",
+                "reupload-shared",
+                "rollback",
+                "skipcaptcha",
+                "suppressredirect",
+                "tboverride",
+                "titleblacklistlog",
+                "unblockself",
+                "undelete",
+                "unwatchedpages",
+                "upload",
+                "upload_by_url",
+                "urlshortener-create-url",
+                "urlshortener-manage-url",
+                "urlshortener-view-log",
+                "view-dump",
+                "viewanalytics"
+            ],
+            "addgroups": [
+                "autopatrolled",
+                "confirmed",
+                "rollbacker"
+            ],
+            "removegroups": [
+                "autopatrolled",
+                "confirmed",
+                "rollbacker"
+            ],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        },
+        "user": {
+            "permissions": [
+                "applychangetags",
+                "changetags",
+                "createpage",
+                "createtalk",
+                "edit",
+                "editcontentmodel",
+                "editmyusercss",
+                "editmyuserjs",
+                "editmyuserjson",
+                "minoredit",
+                "move",
+                "move-categorypages",
+                "move-rootuserpages",
+                "move-subpages",
+                "movefile",
+                "mwoauthmanagemygrants",
+                "purge",
+                "reupload",
+                "reupload-shared",
+                "sfsblock-bypass",
+                "torunblocked",
+                "upload",
+                "user",
+                "mwoauthmanagemygrants",
+                "user"
+            ],
+            "addgroups": [],
+            "removegroups": [],
+            "addself": [],
+            "removeself": [],
+            "autopromote": null
+        }
+    }
+}
